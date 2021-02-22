@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A sports bingo game for ESL students and young learners of English based on sports vocabulary with printable cards.">
-    <meta name="keywords" content="sports printable bingo online class games">
-    <title>Sports Bingo</title>
+    <meta name="description" content="A food bingo game for ESL students and young learners of English based on food vocabulary with printable cards.">
+    <meta name="keywords" content="foods printable bingo online class games">
+    <title>Food Bingo</title>
     <link rel="icon" type="image/png"
     href="favicon.png";
   />
@@ -16,12 +16,13 @@
 </head>
 <body>
 
-  <div class="loader-div" id="loaderDiv" onload="checkForTop();">
-    <div class="loader-container ghost">
-      <img src="img/loader/basketball.svg" alt="" />
+    <div class="loader-div" id="loaderDiv" onload="checkForTop();">
+      <div class="loader-container">
+        <img class="apple ghost" src="img/loader/apple.png" alt="" />
+        <img class="pears ghost" src="img/loader/pears.png" alt="" />
+        <img class="plums ghost" src="img/loader/plums.png" alt="" />
+      </div>
     </div>
-    <div class="basediv"></div>
-  </div>
     
   <div class="nav-bar" id="navbar">
         <a href="index.html" class="nav-bar__logo">
@@ -31,7 +32,7 @@
           </svg>    </a>
         <h3 class="nav-bar__title">Esl-Ology.Com</h3>
         <div class="nav-bar__title-page">
-          <span class="nav-bar__title-page-main" id="pageTitle">SPORTS BINGO</span>
+          <span class="nav-bar__title-page-main" id="pageTitle">FOOD BINGO</span>
       </div>
       <div class="nav-bar__links">
       <a href="index.html" class="nav-bar__link link3">Home</a>
@@ -69,7 +70,7 @@
           <div class="introduction__text1">
              <div class="introduction__choices">
                 <button class="introduction__set newCards" onclick="getNewCards();">NEW CARDS</button>
-                <a href="bingo-caller-sports.html"><button class="introduction__set newCards">BINGO CALLER</button></a>
+                <a href="bingo-caller-food.html"><button class="introduction__set newCards">BINGO CALLER</button></a>
                 <button class="introduction__set newCards" onclick="window.print()">PRINT CARDS</button>
              </div>
           </div
@@ -186,17 +187,17 @@
     <div class="introduction moreinfo">
           <div class="introduction__img">
             <div class="pic1">
-                <img src="img/tennis.svg" alt="decorative">
+                <img src="img/tomato.png" alt="decorative">
             </div>
             <div class="pic1">
-                <img src="img/karate.svg" alt="decorative">
+                <img src="img/banana.png" alt="decorative">
             </div>
           </div>
              <div class="introduction__text">
-            <h1>We are the Champions!
+            <h1>Who ate all the Peas?
             </h1>
             <p>
-              Sports bingo randomly chooses from this list of words: <span class="boldblue">archery, badminton, basketball, boxing, climbing, cycling, diving, driving, football, golf, gymnastics, hang-gliding, hiking, hockey, horse-riding, ice-skating, karate, kayak, paddle-surf, rugby, running, sailing, skiing, surfing, swimming, table-tennis, tennis, weight-lifting, windsurfing, yoga,</span>      </p>
+              Food bingo randomly chooses from this list of words: <span class="boldblue"> apple, banana, bread, burger, cake, carrot, chicken, chips, donut, egg, fish, grapes, honey, ice-cream, jam, kiwi, lettuce, mushrooms, nuts, onion, pizza, potatoes, spaghetti, tomato.</span>      </p>
             </div>
           </div>
       
@@ -216,18 +217,18 @@
   
       <div class="links">
         <h2 class="links__text">
-          Try our other TEFL Sports activities.
+          Try our other TEFL Food activities.
         </h2>
         <div class="links__images">
           <div class="links__images-1 figure">
-            <a href="flashcard-sports.html">
-            <img src="img/FlashcardSports.jpg" alt=""></a>
-              <figcaption>Sports Photo Flashcards</figcaption>
+            <a href="flashcard-food.html">
+            <img src="img/Flashcard-food.jpg" alt=""></a>
+              <figcaption>Food Photo Flashcards</figcaption>
           </div>
           <div class="links__images-1 figure">
-            <a href="matching-sports.html">
-            <img src="img/Memory-sports.jpg" alt=""></a>
-              <figcaption>Sports Matching Cards Game</figcaption>
+            <a href="matching-food.html">
+            <img src="img/MatchingFood.jpg" alt=""></a>
+              <figcaption>Food Matching Cards Game</figcaption>
           </div>
       </div>
 
@@ -237,7 +238,7 @@
 
     <footer class="footer">
       <div class="footer__copyright" id="footer">
-        <p>© 2020 Copyright Esl-ology.com & copyright owners.</p>
+        <p>© 2021 Copyright Esl-ology.com & copyright owners.</p>
         <p>Image credits 
    <a href="sports-credits.html">here.</a> Thanks,guys!</p>
   </div>
@@ -254,39 +255,30 @@
         }
       }
     preload(
-      "img/archery.svg",
-"img/badminton.svg",
-"img/basketball.svg",
-"img/bingo1.png",
-"img/bingo2.png",
-"img/bingoCARD.jpg",
-"img/boxing.svg",
-"img/climbing.svg",
-"img/cycling.svg",
-"img/diving.svg",
-"img/driving.svg",
-"img/football.svg",
-"img/golf.svg",
-"img/gymnastics.svg",
-"img/hang-gliding.svg",
-"img/hiking.svg",
-"img/hockey.svg",
-"img/horse-riding.svg",
-"img/ice-skating.svg",
-"img/karate.svg",
-"img/kayak.svg",
-"img/paddle-surf.svg",
-"img/rugby.svg",
-"img/running.svg",
-"img/sailing.svg",
-"img/skiing.svg",
-"img/surfing.svg",
-"img/swimming.svg",
-"img/table-tennis.svg",
-"img/tennis.svg",
-"img/weight-lifting.svg",
-"img/windsurfing.svg",
-"img/yoga.svg",
+"img/apple.png",
+"img/banana.png",
+"img/bread.png",
+"img/burger.png",
+"img/cake.png",
+"img/carrot.png",
+"img/chicken.png",
+"img/chips.png",
+"img/donut.png",
+"img/egg.png",
+"img/fish.png",
+"img/grapes.png",
+"img/honey.png",
+"img/ice-cream.png",
+"img/jam.png",
+"img/kiwi.png",
+"img/lettuce.png",
+"img/mushrooms.png",
+"img/nuts.png",
+"img/onion.png",
+"img/pizza.png",
+"img/potatoes.png",
+"img/spaghetti.png",
+"img/tomato.png"
     )
       //--><!]]>
     </script>

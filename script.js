@@ -29,6 +29,7 @@ function startLoader() {
 }
 setTimeout(stopLoader, 1000);
 
+
 //Stop the sidebar appearing on small screens with matchmedia
 function myFunction(x) {
   if (blue.matches) {
@@ -48,36 +49,30 @@ function getNewCards(){
   }
 
 var bingoArray = [
-  "archery.svg",
-"badminton.svg",
-"basketball.svg",
-"boxing.svg",
-"climbing.svg",
-"cycling.svg",
-"diving.svg",
-"driving.svg",
-"football.svg",
-"golf.svg",
-"gymnastics.svg",
-"hang-gliding.svg",
-"hiking.svg",
-"hockey.svg",
-"horse-riding.svg",
-"ice-skating.svg",
-"karate.svg",
-"kayak.svg",
-"paddle-surf.svg",
-"rugby.svg",
-"running.svg",
-"sailing.svg",
-"skiing.svg",
-"surfing.svg",
-"swimming.svg",
-"table-tennis.svg",
-"tennis.svg",
-"weight-lifting.svg",
-"windsurfing.svg",
-"yoga.svg",
+  "apple.png",
+"banana.png",
+"bread.png",
+"burger.png",
+"cake.png",
+"carrot.png",
+"chicken.png",
+"chips.png",
+"donut.png",
+"egg.png",
+"fish.png",
+"grapes.png",
+"honey.png",
+"ice-cream.png",
+"jam.png",
+"kiwi.png",
+"lettuce.png",
+"mushrooms.png",
+"nuts.png",
+"onion.png",
+"pizza.png",
+"potatoes.png",
+"spaghetti.png",
+"tomato.png"
 ];
 
 function shuffle(bingoArray) {
